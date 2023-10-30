@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="p-5">
+        <!-- Hamburger Icon  -->
+        <div class="md:hidden flex justify-end">
+            <svg width="26" height="20" viewBox="0 0 30 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M0 1H30" stroke="#21243D" stroke-width="1.6"/>
+                <path d="M0 10H30" stroke="#21243D" stroke-width="1.6"/>
+                <path d="M0 19H30" stroke="#21243D" stroke-width="1.6"/>
+                </svg>
+        </div>
+        <!-- Menu  -->
+        <div class="justify-end gap-4 p-5 hidden md:flex">
+            <a class="font-medium text-xl" href="/">Blog</a>
+            <a class="font-medium text-xl text-orange-600" href="/">Works</a>
+            <a class="font-medium text-xl" href="/">Contact</a>
+        </div>
+    </nav>
+    <!-- Main Menu  -->
+    <main class="max-w-[1200px] mx-auto">
+        <!-- Section 1  -->
+        <section class="px-5 md:-mt-16">
+            <div class="flex flex-col items-center md:flex-row-reverse py-14 md:h-screen md:w-fit">
+                <!-- Profile image  -->
+                <div class="mx-auto md:w-1/3">
+                    <img class="md:hidden" src="images1/Group 1.png" alt="Profile image">
+                    <img class="hidden md:block" src="Images1/Ellipse 1.png" alt="Profile Image">
+                </div>
+                <!-- Name and Profession  -->
+                <div class="text-center md:w-1/2 md:text-left md:mx-auto">
+                    <h1 class="text-2xl md:text-[44px] font-bold leading-tight">
+                       <span class="md:block">
+                        Hi, I am John,
+                       </span> 
+                       Creative Technologist
+                    </h1>
+                    <p class="text-center md:text-left text-base font-normal md:pt-7">
+                        Ammet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velt officia conswquat dusis enim velit mollit. Exercitation venaim consequat sunt nostrud amet.
+                    </p>
+                    <button class="mt-7 px-5 py-2 bg-red-400 rounded-sm">
+                        Downloade Resume
+                    </button>
+                </div>
+            </div>
+        </section>
+        <!-- Section 2 -->
+        <section class="bg-cyan-50 px-3 pb-10">
+            <div class="md:flex md:justify-around md:items-center">
+                <!-- First Blog  -->
+                <div class="w-full md:max-w-md mx-auto">
+                    <p class="font-normal text-lg text-center py-3 md:text-left">
+                        Recent Posts
+                    </p>
+                    <div class="bg-white p-4 flex flex-col gap-5">
+                        <h2 class="font-bold text-2xl">
+                            Making a design system from scratch
+                        </h2>
+                        <div class="divide-x-2 divide-slate-400 flex gap-4 py-3">
+                            <span class="text-base font-normal">
+                                12 Feb 2020
+                            </span>
+                            <span class="text-base font-normal pl-4">
+                                Design, Pattren
+                            </span>
+                        </div>
+                        <p>
+                            Amet minim mollit non deserunt ullamco est sit aliqua dolor do ametsint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
+                        </p>
+                    </div>
+                </div>
+                <!-- Second Blog  -->
+                <div class="w-full mx-auto md:mt-2 mt-3 md:max-w-md">
+                    <p class="font-normal text-right text-blue-400 text-base py-3 hidden md:block">
+                       <a href="/">View All</a> 
+                    </p>
+                    <div class="bg-white p-4 flex flex-col gap-5">
+                        <h2 class="font-bold text-2xl my-1">
+                            Creating pixel perfect icons in <span class="md:block">Figma</span>
+                        </h2>
+                        <div class="divide-x-2 divide-slate-400 flex gap-4 py-3">
+                            <span class="text-base font-normal">
+                                12 Feb 2020
+                            </span>
+                            <span class="text-base font-normal pl-4">
+                                Design, Pattren
+                            </span>
+                        </div>
+                        <p>
+                            Amet minim mollit non deserunt ullamco est sit aliqua dolor do ametsint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
+                        </p>
+                    </div>
+                </div>
+            </div>           
+        </section>
+        <section class="px-5 py-2 md:hidden">
+            <div class="flex flex-col pb-5">
+                <p class="text-lg text-center py-3">
+                    Featured Works
+                </p>
+                    <div>
+                        <img src="images/Rectangle 30.png" alt="">
+                    </div>
+                    <div class="pt-4">
+                        <h3 class="text-2xl font-bold">
+                            Designing Dashborads
+                        </h3>
+                        <div class="pt-6 flex gap-5 items-baseline">
+                            <div class="w-12 h-5 bg-slate-800 text-white text-sm font-semibold rounded-full text-center px-1">
+                                2020
+                            </div>
+                            <p class="font-normal text-base text-slate-400">
+                                Dashboard
+                            </p>
+                        </div>
+                        <p class="pt-6 font-normal text-base">
+                            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim veli mollit. Exercitation venaiam consequat sunt nostrud amet.
+                        </p>
+                    </div>
+            </div>
+            <hr>
+        </section>
+        <p class="text-lg text-left py-6 hidden md:block">
+            Featured Works
+        </p>
+        <section class="divide-y">
+            <div class="p-3 hidden md:flex gap-3 ">
+                <div>
+                    <img src="Images/Rectangle 30 (2).png" alt="">
+                </div>
+                <div class="max-w-[400px] flex flex-col md:gap-3 md:mt-2">
+                    <h2 class="font-bold text-2xl">
+                        Designing Dashboards 
+                    </h2>
+                    <div class="flex gap-3 py-4">
+                        <div class="text-center w-12 h-6 text-white font-bold bg-black rounded-full">2020</div>
+                        <span class="text-base font-normal text-slate-400">Dashborad</span>
+                    </div>
+                    <p>
+                        Amet minim mollit non deserunt ullamco est sit aliqu dolor do amet sint. Velit mollit. Exercitation veniam consequat sunt nostrud amet.
+                    </p>
+                </div>
+            </div>
+            <div class="hidden md:flex gap-3 p-3">
+                <div>
+                    <img src="Images/Rectangle 32.png" alt="" srcset="">
+                </div>
+                <div class="max-w-[400px] flex flex-col gap-3">
+                    <h2 class="font-bold text-2xl">
+                        Vibrant Portrailts of 2020
+                    </h2>
+                    <div class="flex gap-3 py-4">
+                        <div class="text-center w-12 h-6 text-white font-bold bg-black rounded-full">2018</div>
+                        <span class="text-base font-normal text-slate-400">Illustration</span>
+                    </div>
+                    <p>
+                        Amet minim mollit non deserunt ullamco est sit alique dolor do amet sint. Velit mollit. Exercitation veniam consequant sunt nostrud amet.
+                    </p> 
+                </div>                  
+            </div>
+    
+            <div class="hidden md:flex gap-3 p-3">
+                <div>
+                    <img src="Images/Rectangle 34.png" alt="" srcset="">
+                </div>
+                <div class="max-w-[400px] flex flex-col gap-3">
+                    <h2 class="font-bold text-2xl">
+                        36 Days of Malayalam type
+                    </h2>
+                    <div class="flex gap-3 py-4">
+                        <div class="text-center w-12 h-6 text-white font-bold bg-black rounded-full">2018</div>
+                        <span class="text-base font-normal text-slate-400">Typography</span>
+                    </div>
+                    <p>
+                        Amet minim mollit non deserunt ullamco est sit alique dolor do amet sint. Velit mollit. Exercitation veniam consequant sunt nostrud amet.
+                    </p> 
+                </div>                  
+            </div>
+            <div class="hidden md:flex gap-3 p-3">
+                <div>
+                    <img src="Images/Rectangle 40.png" alt="" srcset="">
+                </div>
+                <div class="max-w-[400px] flex flex-col gap-3">
+                    <h2 class="font-bold text-2xl">
+                        Components
+                    </h2>
+                    <div class="flex gap-3 py-4">
+                        <div class="text-center w-12 h-6 text-white font-bold bg-black rounded-full">2018</div>
+                        <span class="text-base font-normal text-slate-400">Components Design</span>
+                    </div>
+                    <p>
+                        Amet minim mollit non deserunt ullamco est sit alique dolor do amet sint. Velit mollit. Exercitation veniam consequant sunt nostrud amet.
+                    </p> 
+                </div>                  
+            </div>
+        </section>
+        <div class="w-full h-36 md:border-b-2 border-slate-400">
+
+        </div>
+    </main>
+    <footer class="flex flex-col md:justify-center items-center px-5 py-10 mt-6">
+        <div class="flex gap-9 justify-center ">
+            <div>
+                <img src="Social/fb.png" alt="">
+            </div>
+            <div>
+                <img src="Social/insta.png" alt="">
+            </div>
+            <div>
+                <img src="Social/Group.png" alt="">
+            </div>
+            <div>
+                <img src="Social/Group.png" alt="">
+            </div>
+        </div>
+        <p class="font-normal text-sm text-center py-6">
+            Copyright ©2020 All rights reserved reserved
+        </p>
+    </footer>
+</body>
+</html>

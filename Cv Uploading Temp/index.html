@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body class="bg-blue-100">
+    <div class="md:max-w-3xl md:mx-auto bg-slate-50 bg-opacity-70 shadow-lg text-neutral-700">
+        <header>
+            <div class="py-4">
+                <h1 class="text-2xl md:text-3xl text-center underline underline-offset-4 font-semibold">Upload Your Cv Here!</h1>
+            </div>
+        </header>
+        <main>
+            <form action="">
+                <div class="px-5 py-2 flex gap-4">
+                    <div class="w-1/2 ">
+                        <fieldset>
+                            <legend class="pb-2">
+                               Full  Name:
+                            </legend>
+                            <label for="f.name">
+                                <input type="text" placeholder="Full Name" id="f.name" required class="ring-0 border px-3 py-2 w-full shadow-md">
+                            </label>
+                        </fieldset>
+                   </div>   
+                   <div class="w-1/2">
+                    <fieldset>
+                        <legend class="pb-2">
+                            Father Name:
+                        </legend>
+                        <label for="l.name">
+                            <input type="text" placeholder="Father Name" id="l.name" class="ring-0 border px-3 py-2 w-full shadow-md">
+                        </label>
+                    </fieldset>
+                   </div>                
+                </div>
+
+                <div class="px-5 pb-2 flex gap-4">
+                    <div class="md:w-2/3">
+                        <fieldset>
+                            <legend class="pb-2">
+                                Email:
+                            </legend>
+                            <label for="email">
+                                <input type="email" placeholder="Type Your Email" id="email" class="ring-0 border px-3 py-2 w-full shadow-md">
+                            </label>
+                        </fieldset>
+                   </div>   
+                   <div class="md:w-1/3">
+                    <fieldset>
+                        <legend class="pb-2">
+                            Age:
+                        </legend>
+                        <label for="age">
+                            <input type="date" placeholder="Age" id="age" class="ring-0 border px-3 py-2 w-full shadow-md">
+                        </label>
+                    </fieldset>
+               </div>                
+            </div>
+
+            <div class="px-5 py-2 flex gap-4">
+                <div class="w-2/3 ">
+                    <fieldset>
+                        <legend class="pb-2">
+                            Contact No:
+                        </legend>
+                        <label for="c.number">
+                            <input type="text" placeholder="Contact Number" id="c.number" required class="ring-0 border px-3 py-2 w-full shadow-md">
+                        </label>
+                    </fieldset>
+               </div>   
+               <div class="w-1/2">
+                <fieldset>
+                    <legend class="pb-2">
+                        Education:
+                    </legend>
+                    <label for="l.name">
+                        <input type="text" id="l.name" class="ring-0 border px-3 py-2 w-full shadow-md">
+                    </label>
+                </fieldset>
+               </div>                
+            </div>
+            
+            <div class="px-5 py-2 flex gap-4">
+                <div class="w-1/3">
+                    <fieldset>
+                        <legend class="pb-2">
+                           Experience:
+                        </legend>
+                        <input type="number" placeholder="Experience" id="experience"  max="50" min="1" required class="ring-0 border px-3 py-2 shadow-md w-full">
+                        <label for="experience">
+                        </label>
+                    </fieldset>
+               </div>   
+               <div class="w-full">
+                <fieldset>
+                    <legend class="pb-2">
+                        Designation:
+                    </legend>
+                    <label for="l.name">
+                        <input type="text" placeholder="Current Designation" id="l.name" class="ring-0 border px-3 py-2 w-full shadow-md">
+                    </label>
+                </fieldset>
+               </div>                
+            </div>
+
+            <div class="border bg-white shadow-md mx-5 my-5 pl-2">Address:
+            <address> pakistan</address>
+            </div>
+
+            <div class="w-full px-5 py-2">
+                <fieldset>
+                    <legend class="pb-2">
+                        Programming Languages:
+                    </legend>
+                    <label for="language">
+                        <input type="text" placeholder="Languages" id="language" class="ring-0 border px-3 py-2 w-full shadow-md overflow-y-auto">
+                    </label>
+                </fieldset>
+               </div>
+
+               <div class="w-full px-5 py-2">
+                <fieldset>
+                    <legend class="pb-2">
+                        Achievements:
+                    </legend>
+                    <label for="achiev">
+                        <input type="text" placeholder="Achievements" id="achiev" class="ring-0 border px-3 py-2 w-full shadow-md overflow-y-auto">
+                    </label>
+                </fieldset>
+               </div>
+
+               <div class="w-full px-5 py-2">
+                <fieldset>
+                    <legend class="pb-2">
+                        Certificates:
+                    </legend>
+                    <label for="cert">
+                        <input type="text" placeholder="Certificates" id="cert" class="ring-0 border px-3 py-2 w-full shadow-md overflow-y-auto">
+                    </label>
+                </fieldset>
+               </div>
+
+               <div class="w-full px-5 py-2">
+                <fieldset>
+                    <legend class="pb-2">
+                        Skills:
+                    </legend>
+                    <label for="skills">
+                        <input type="text" placeholder="Some of your Skills" id="skills" class="ring-0 border px-3 py-2 w-full shadow-md overflow-y-auto">
+                    </label>
+                </fieldset>
+               </div>
+
+               <div class="flex flex-col md:flex-row justify-between gap-2 px-5 py-2">
+                     <div class="w-l/2">
+                        <fieldset>
+                            <legend class="pb-2">
+                                Hobbies:
+                            </legend>
+                            <textarea name="hobbies" id="" cols="35" rows="5" placeholder="Hobbies" class="p-1"></textarea>
+                        </fieldset>
+                    </div>
+
+                    <div class="w-l/2">
+                        <fieldset>
+                            <legend class="pb-2">
+                                About Me:
+                            </legend>
+                            <textarea name="Skills" id="" cols="45" rows="5" placeholder="Something About You" class="p-1"></textarea>
+                        </fieldset>
+                   </div>
+               </div>
+            </form>
+        </main>
+            <div class="flex  justify-evenly px-5 py-2 mt-2">
+                <a href="">
+                    <img src="social/twitter.png" alt="" class="opacity-70">
+                </a><a href="">
+                    <img src="social/facebook.png" alt="" class="opacity-70">
+                </a><a href="">
+                    <img src="social/instagram.png" alt="" class="opacity-70">
+                </a><a href="">
+                    <img src="social/linkedin.png"  alt="Linkedin logo" class="opacity-70">
+                </a>
+                <a href="">
+                    <img src="social/github.png" alt="" class="opacity-70">
+                </a>
+            </div>
+            <div class="px-5 py-5 flex flex-col gap-5 ">
+                <div>
+                    <fieldset class=" px-2 py-2 border-2 shadow-md bg-slate-50">
+                        <label for="
+                        file">
+                        <input type="file" name="myfile" id="file">
+                    </label>
+                    </fieldset>
+                </div>
+                <div>
+                    <button class="hover:opacity-90 hover:text-neutral-800">
+                        <input type="submit" class="px-6 py-2 bg-blue-300
+                        font-semibold
+                         rounded-lg border border-slate-30">
+                    </button>
+                </div>
+
+            </div>
+    </div>
+</body>
+</html>

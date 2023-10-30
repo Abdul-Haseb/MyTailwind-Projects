@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="input.css">
+    <title>Document</title>
+</head>
+<body>
+    <!-- header -->
+    <header>
+        <div class="text-right text-sm font-thin text-slate-700 mr-3 mt-2 ">
+            <span>
+                Dont have an account yet?
+            </span>
+            <button class="border-[1px] border-solid border-gray-300 p-1 rounded-sm bg-slate-50">
+                Sign up
+            </button>
+            <a class="underline" href="">
+                Need Help?
+            </a>
+        </div>
+</header>
+   <!-- Mid section -->
+    <div class="w-full flex flex-col items-center">
+        <h1 class="text-2xl font-extrabold mt-5 mb-5">Typeform</h1>
+        <p class="text-slate-600 font-normal text-lg mb-4">Hello, who's this?</p>
+        <div class="w-[300px] box-border">
+            <form action=".php" >
+                <p class="my-2">Email</p>
+                <input class="w-full h-10 pl-2 rounded-md border-2 border-gray-400" type="email" placeholder="bruce@wayne.com" required>
+                <p class="my-2">Password</p>
+                <input class="w-full h-10 pl-2 rounded-md border-2 border-gray-400" type="password" placeholder="At least 8 characters" min="8" required>
+            </form>   
+            <div class="mt-3 mb-3">
+                <a href="#" class="underline text-slate-400 ">
+                    Forgot password?
+                </a>
+            </div>
+            <hr>
+            <button type="button" class="w-full bg-gray-800 text-white py-2 rounded-md mb-3 mt-3">
+                log in to Typeform
+            </button>
+            
+            <div class="flex items-center justify-center my-3">
+                <button class="flex items-center w-full border-2 border-slate-400 py-1 text-center pl-7 rounded-md">
+                    <img src="google-logo.png" class="h-5 mt-0.5 mr-2" alt="">
+                    Login with Google
+                </button>
+                </div>
+                <div class="flex items-center justify-center my-3">
+                    <button class="flex items-center w-full border-2 border-slate-400 py-1 text-center pl-7 rounded-md">
+                        <img src="Microsoft_logo.svg.webp" class="h-5 mt-0.5 mr-2" alt="">
+                        Login with Microsoft
+                    </button>
+                    </div>
+                    <div class="text-center text-sm text-slate-500 underline">
+                    <a href="#">
+                        Login with SSO
+                    </a>
+                </div>
+        </div>
+    </div>
+</body>
+</html>

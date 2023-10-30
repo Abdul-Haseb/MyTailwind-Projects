@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body class="bg-gray-100">
+    <div class="flex items-center justify-center">
+        <img class="w-60 mb-5" src="Images/facebook.svg" alt="Facebook-logo">
+    </div>
+    
+    <div class="w-[500px] mx-auto md:w-[430px] max-sm:w-[430px] bg-white rounded-md shadow-md">
+        <div class="mid-section px-3">
+            <h1 class="font-medium text-2xl text-center pt-3">Create a new account</h1>
+            <p class="text-center text-gray-500 pb-3">Its quick and easy</p>
+            <hr class="mb-2">
+            <form action="#">
+                <div class="flex justify-center">
+                <input class="border-2 rounded-md py-1.5 px-2 w-1/2" type="text" placeholder="First name" name="name" required>
+                <input class="border-2 rounded-md py-1.5 px-2 ml-4 w-1/2" type="text" placeholder="Surname" name="surname" required>
+            </div>
+
+                <input class=" border-2 rounded-md mt-2 w-full px-2 py-1.5" type="email" type="number" placeholder="Mobile number or email address" required>
+                <input class="w-full border-2 p-1.5 mt-2 rounded-md" type="password" placeholder="New password" required>
+                <p class="text-gray-500 mt-3 text-sm">
+                    Date of birth
+                </p>
+                <select class="border-2 px-9 py-2 rounded-md mr-3" name="date" id="birdth-date" required>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                </select>
+                <select class="border-2 px-8 py-2 rounded-md" name="Month" id="birth-month" required>
+                    <option value="January">January</option>
+                    <option value="Feburary">Feburary</option>
+                    <option value="March">March</option>
+                    <option value="Aprail">Aprail</option>
+                    <option value="May">May</option>
+                    <option value="June">June</option>
+                    <option value="July">July</option>
+                    <option value="August">August</option>
+                    <option value="September">September</option>
+                    <option value="October">October</option>
+                    <option value="November">November</option>
+                    <option value="December">December</option>
+                </select>
+                <p class="font-bold mb-1 mt-3">Gender</p>
+                <div class="flex justify-between"> 
+                    <label for="female" class="border-2 px-2 py-1 rounded-md flex-1">Female
+                        <input class="mx-2" type="radio" name="Gender" value="female"></label>
+
+                        <label for="male" class="border-2 px-4 py-1 rounded-md ml-3 mr-3">
+                            Male
+                            <input class="" type="radio" name="Gender" Value="male">
+                        </label>
+
+                        <label for="custom" class="border-2 px-4 py-1 rounded-md flex-1">
+                            Custom
+                            <input class="mx-1" type="radio" name="Gender" value="custom">
+                        </label>
+                </div>
+            </form>
+            <p class="text-gray-500 text-sm w-96 mb-6">
+                People who use our sevice may have uploaded your contct information to Facebok <a class="text-blue-400" href="#">Learn more</a>
+            </p>
+            <p class="text-gray-500 text-sm">
+                By clicking sign Up, you agree to our <a href="#" class="text-blue-400" >Terms, Privacy Policy</a> and <a href="#" class="text-blue-400">Cookies Policy</a>
+            </p>
+            <p class="text-gray-500 text-sm">YOu may receive SMS notifications from us and can opt out at any time.</p>
+            <div class="text-center mt-3">
+               <button class="bg-green-600 px-16 py-1.5 text-white font-bold rounded-md">Sign up</button>
+            </div>
+            <div class="text-center mt-2">
+                <a href="#" class="text-blue-500 underline ">Already have an account?</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
